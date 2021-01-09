@@ -1,197 +1,195 @@
-.btn:focus{
-    box-shadow: none;
+.btn:focus {
+  box-shadow: none;
 }
 
-.navbar-brand{
-    opacity:1;
-    color:#272727;
-    font-family:Airbnb Cereal App Bold;
-    font-size:35px;
-    text-align:center;
-
-
-    }
-.navbar-brand span, #header h1 span{
-    color: #5252CE;
+.navbar-brand {
+  opacity: 1;
+  color: #272727;
+  font-family: Airbnb Cereal App Bold;
+  font-size: 35px;
+  text-align: center;
+}
+.navbar-brand span,
+#header h1 span,
+.footerBrand span {
+  color: #5252ce;
 }
 
-.nav-item{
-    opacity:1;
-    color:#2A3748;
-    font-family:Airbnb Cereal App Book;
-    font-size:21px;
-    text-align:left;
+.nav-item {
+  opacity: 1;
+  color: #2a3748;
+  font-family: Airbnb Cereal App Book;
+  font-size: 16px;
+  text-align: left;
 }
-.nav-item .nav-link:hover{
-
-    color: #5252CE !important;
-    transition: all 0.5s;
-    font-weight: bold;
-    text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19) ;
+.nav-item .nav-link:hover {
+  color: #5252ce !important;
+  transition: all 0.5s;
+  font-weight: bold;
+  text-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.my-btn{
-    box-shadow: 0 1px #3f3f94;
-    background-color:#5252CE;
-    color: white;
+.my-btn {
+  box-shadow: 0 1px #3f3f94;
+  background-color: #5252ce;
+  color: white;
 }
 
-.my-btn:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.my-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
-    color: white;
-
+  color: white;
 }
-.my-btn-2{
-    font-family:Airbnb Cereal App;
-    box-shadow: 0 1px #3f3f94;
-    background-color:white;
-    color: #5252CE;
-    border-color: #5252CE;
+.my-btn-2 {
+  font-family: Airbnb Cereal App;
+  box-shadow: 0 1px #3f3f94;
+  background-color: white;
+  color: #5252ce;
+  border-color: #5252ce;
 }
-.my-btn-2:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.my-btn-2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
-    color: #5252CE;
-
+  color: #5252ce;
 }
 .navbar-light .navbar-nav .nav-link {
-    color:#2A3748;
+  color: #2a3748;
 }
-#header h1{
-    font-size: 50px;
-    opacity:1;
-    color:#272727;
-    font-family:Airbnb Cereal App Bold;
+#header h1 {
+  font-size: 50px;
+  opacity: 1;
+  color: #272727;
+  font-family: Airbnb Cereal App Bold;
 }
-#header p{
-    font-size: 24px;
-    opacity:1;
-    color:#272727;
-    font-family:Airbnb Cereal App;
+#header p {
+  font-size: 24px;
+  opacity: 1;
+  color: #272727;
+  font-family: Airbnb Cereal App;
 }
 .btn-xl {
-    padding: 10px 20px;
-    font-size: 25px;
-    border-radius: 10px;
-    outline: none;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  outline: none;
 }
-.bold{
-    font-family:Airbnb Cereal App Bold;
-    color: #2A3748;
-    font-size: 45px;
-   
+.bold {
+  font-family: Airbnb Cereal App Bold;
+  color: #2a3748;
+  font-size: 45px;
 }
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
 
 ul {
-    list-style: none;
-  }
-.list li::before{
-    content: "• ";
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-    color:#5252CE ;
+  list-style: none;
 }
-.card{
-    background-color:#F8F9FB;
+.list li::before {
+  content: "• ";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  color: #5252ce;
 }
-.card:hover{
-    /* opacity: 0.3; */
-    background: #ffffff;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.10), 0 17px 50px 0 rgba(0,0,0,0.10);
+.card {
+  background-color: #f8f9fb;
+}
+.card:hover {
+  /* opacity: 0.3; */
+  background: #ffffff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
 .my-btn-3 {
-    font-size: 50px;
-    color: #5252CE;
-    position: absolute;
-    top: 85%;
-    left: 30%;
-    pointer-events: auto;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    
+  font-size: 50px;
+  color: #5252ce;
+  position: absolute;
+  top: 85%;
+  left: 30%;
+  pointer-events: auto;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
-
-
-.my-btn-3, .my-btn-6:focus {
-    outline: 0;
-    box-shadow: none!important;
-} 
-.my-btn-4{
-    font-family:Airbnb Cereal App;
-
-    box-shadow: 0 1px #3f3f94;
-    background-color:transparent;
-    color: white;
-    border-color: white;
+.my-btn-3,
+.my-btn-6:focus {
+  outline: 0;
+  box-shadow: none !important;
 }
-.my-btn-4:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    color: white;
-    
+.my-btn-4 {
+  font-family: Airbnb Cereal App;
 
+  box-shadow: 0 1px #3f3f94;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.my-btn-4:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: white;
 }
 
-.my-btn-5{
-    
-    background-size: cover;
-    width: 40px;
-    height: 40px;
-    pointer-events: auto;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    
+.my-btn-5 {
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  pointer-events: auto;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
-.my-btn-5:hover{
-    background-color: #c8c8e4;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.my-btn-5:hover {
+  background-color: #c8c8e4;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .my-btn-6 {
-    font-size: 50px;
-    color: #5252CE;
-    pointer-events: auto;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    
+  font-size: 50px;
+  color: #5252ce;
+  pointer-events: auto;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
-.footer{
-    font-size: 17px
+.footer {
+  font-size: 17px;
 }
 
-p {font-family:Airbnb Cereal App;
-    font-size: 20px;
-    color: #2a3748;
+p {
+  font-family: Airbnb Cereal App;
+  font-size: 20px;
+  color: #2a3748;
 }
-.send-btn{
-    box-shadow: 0 1px #3f3f94;
-    background-color:#5252CE;
-    color: white;
-    border-radius: 10px;
-    left: -10px;
+.send-btn {
+  box-shadow: 0 1px #3f3f94;
+  background-color: #5252ce;
+  color: white;
+  border-radius: 10px;
+  left: -10px;
 }
-.card-body a:hover{
-    color:#5252CE ;
+.card-body a:hover {
+  color: #5252ce;
 }
-#ourstory{
-    color:#5252CE ;
-    
+#ourstory {
+  color: #5252ce;
 }
