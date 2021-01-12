@@ -29,6 +29,10 @@
   text-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
+.my-bg{
+  background-color: #F5F6FC;
+}
 .my-btn {
   box-shadow: 0 1px #3f3f94;
   background-color: #5252ce;
@@ -78,7 +82,7 @@
 .bold {
   font-family: Airbnb Cereal App Bold;
   color: #2a3748;
-  font-size: 45px;
+  /* font-size: 45px; */
 }
 
 .grow {
@@ -177,7 +181,7 @@ ul {
 
 p {
   font-family: Airbnb Cereal App;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #2a3748;
 }
 .send-btn {
