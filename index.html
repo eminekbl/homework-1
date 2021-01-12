@@ -1,740 +1,943 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Studyink</title>
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" type="text/css" href="src/style.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <title>Studyink</title>
-</head>
+  <body>
+    <!--Navbar-->
+    <div class="container-fluid my-bg">
+      <div class="container mt-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand align-items-center" href="index.html">
+              <img
+                class="object-fit:contain"
+                src="img/iconheader.png"
+                alt=""
+                width="35"
+                height="35"
+              />
+              Study<span>ink</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >How it works</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tutors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="ourstory" href="ourstory.html"
+                    >Our Story</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                  <!-- <a class="nav-link disabled" href="#" >Contact Us</a> -->
+                </li>
+              </ul>
+              <ul class="navbar-nav align-items-center">
+                <li>
+                  <img
+                    class="nav-item"
+                    style="object-fit: contain"
+                    src="img/Icon feather-phone-call.png"
+                    alt=""
+                  />
+                </li>
+                <li class="nav-item px-2">+89754125</li>
+                <li>
+                  <button
+                    class="btn my-btn nav-item rounded-pill"
+                    type="button"
+                  >
+                    Get Started
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--container end-->
+    </div>
+    <!--navbar end-->
 
-<body>
-  <!--Navbar-->
-  <div class="container-fluid my-bg">
-    <div class="container mt-3">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand align-items-center" href="index.html">
-            <img class="object-fit:contain" src="img/iconheader.png" alt="" width="35" height="35" />
-            Study<span>ink</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto align-items-center">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">How it works</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tutors</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="ourstory" href="ourstory.html">Our Story</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-                <!-- <a class="nav-link disabled" href="#" >Contact Us</a> -->
-              </li>
-            </ul>
-            <ul class="navbar-nav align-items-center">
-              <li>
-                <img class="nav-item" style="object-fit: contain" src="img/Icon feather-phone-call.png" alt="" />
-              </li>
-              <li class="nav-item px-2">+89754125</li>
-              <li>
-                <button class="btn my-btn nav-item rounded-pill" type="button">
-                  Get Started
-                </button>
-              </li>
-            </ul>
+    <div class="container-fluid my-bg">
+      <div class="container">
+        <div class="row" style="position: relative">
+          <div class="row mt-5" id="header" style="position: absolute">
+            <div class="col-sm-7 mt-5">
+              <h1>
+                Keep exploring <br />
+                and go beyond to the <br />
+                <span>Future</span>
+              </h1>
+              <p>
+                Find the right instructor for you. Any topic, skill level, or
+                language. Lifetime Access. Expert Instruction.
+              </p>
+              <button type="button" class="btn my-btn rounded-pill btn-xl mt-4">
+                join for free
+              </button>
+            </div>
+          </div>
+          <div class="row mt-4 justify-content-end">
+            <div class="col-sm-4">
+              <img
+                src="img/img-1.png"
+                style="float: right; object-fit: scale-down"
+                alt=""
+                height="700"
+              />
+            </div>
           </div>
         </div>
-
-      </nav>
+      </div>
     </div>
     <!--container end-->
-  </div>
-  <!--navbar end-->
 
-
-  <div class="container-fluid my-bg">
-    <div class="container">
-      <div class="row" style="position: relative">
-        <div class="row mt-5" id="header" style="position: absolute">
-          <div class="col-sm-7 mt-5">
-            <h1>
-              Keep exploring <br />
-              and go beyond to the <br />
-              <span>Future</span>
-            </h1>
-            <p>
-              Find the right instructor for you. Any topic, skill level, or
-              language. Lifetime Access. Expert Instruction.
-            </p>
-            <button type="button" class="btn my-btn rounded-pill btn-xl mt-4">
-              join for free
-            </button>
+    <!--symbols-->
+    <div class="container my-bg">
+      <div class="row justify-content-center align-items-center mt-3">
+        <div class="col-2 d-none d-sm-block">
+          <img
+            src="img/google.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="150"
+          />
+        </div>
+        <div class="col-2 d-none d-sm-block">
+          <img
+            src="img/hubspot.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="150"
+          />
+        </div>
+        <div class="col-2 d-none d-sm-block">
+          <img
+            src="img/ibm.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="150"
+          />
+        </div>
+        <div class="col-2 d-none d-sm-block">
+          <img
+            src="img/udemy.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="150"
+          />
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center mt-3">
+        <div class="col-2 d-block d-sm-none">
+          <img
+            src="img/google.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="50px"
+          />
+        </div>
+        <div class="col-2 d-block d-sm-none">
+          <img
+            src="img/hubspot.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="50px"
+          />
+        </div>
+        <div class="col-2 d-block d-sm-none">
+          <img
+            src="img/ibm.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="50px"
+          />
+        </div>
+        <div class="col-2 d-block d-sm-none">
+          <img
+            src="img/udemy.png"
+            alt=""
+            style="object-fit: scale-down"
+            width="50px"
+          />
+        </div>
+      </div>
+      <div
+        class="row justify-content align-items-center mt-4"
+        style="position: relative"
+      >
+        <img src="img/rectangle.png" alt="" />
+        <div
+          class="row justify-content-center align-items-center text-center"
+          style="position: absolute"
+        >
+          <div class="d-none d-sm-block col-sm-3 text-light bold grow">
+            <h1 style="font-size: 55px">300+</h1>
+            <p style="font-size: 15px" class="text-light">Active Courses</p>
+          </div>
+          <div class="d-none d-sm-block col-sm-3 text-light bold grow">
+            <h1 style="font-size: 55px">250+</h1>
+            <p style="font-size: 15px" class="text-light">Expert Tutors</p>
+          </div>
+          <div class="d-none d-sm-block col-sm-3 text-light bold grow">
+            <span>
+              <h1 style="font-size: 55px">20k+</h1>
+              <p style="font-size: 15px" class="text-light">Active Students</p>
+            </span>
+          </div>
+          <div class="d-none d-sm-block col-sm-3 text-light bold grow">
+            <span>
+              <h1 style="font-size: 55px">50k+</h1>
+              <p style="font-size: 15px" class="text-light">
+                Important Resources
+              </p>
+            </span>
           </div>
         </div>
-        <div class="row mt-4 justify-content-end ">
-          <div class="col-sm-4 ">
-            <img src="img/img-1.png" style="float: right; object-fit: scale-down; " alt="" height="700" />
+        <div
+          class="row justify-content-center align-items-center text-center"
+          style="position: absolute"
+        >
+          <div class="d-block d-sm-none col-3 text-light bold grow">
+            <h1 style="font-size: 10px">300+</h1>
+            <p style="font-size: 5px" class="text-light">Active Courses</p>
+          </div>
+          <div class="d-block d-sm-none col-3 text-light bold grow">
+            <h1 style="font-size: 10px">250+</h1>
+            <p style="font-size: 5px" class="text-light">Expert Tutors</p>
+          </div>
+          <div class="d-block d-sm-none col-3 text-light bold grow">
+            <span>
+              <h1 style="font-size: 10px">20k+</h1>
+              <p style="font-size: 5px" class="text-light">Active Students</p>
+            </span>
+          </div>
+          <div class="d-block d-sm-none col-3 text-light bold grow">
+            <span>
+              <h1 style="font-size: 10px">50k+</h1>
+              <p style="font-size: 5px" class="text-light">
+                Important Resources
+              </p>
+            </span>
           </div>
         </div>
       </div>
-
     </div>
-  </div>
-  <!--container end-->
+    <!--symbols end-->
 
-
-  <!--symbols-->
-  <div class="container my-bg">
-    <div class="row justify-content-center align-items-center mt-3">
-      <div class=" col-2 d-none d-sm-block">
-        <img src="img/google.png" alt="" style="object-fit: scale-down" width="150" />
-      </div>
-      <div class=" col-2 d-none d-sm-block">
-        <img src="img/hubspot.png" alt="" style="object-fit: scale-down" width="150" />
-      </div>
-      <div class=" col-2 d-none d-sm-block">
-        <img src="img/ibm.png" alt="" style="object-fit: scale-down" width="150" />
-      </div>
-      <div class=" col-2 d-none d-sm-block">
-        <img src="img/udemy.png" alt="" style="object-fit: scale-down" width="150" />
-      </div>
-    </div>
-    <div class="row justify-content-center align-items-center mt-3">
-      <div class=" col-2 d-block d-sm-none">
-        <img src="img/google.png" alt="" style="object-fit: scale-down" width="50px" />
-      </div>
-      <div class=" col-2 d-block d-sm-none">
-        <img src="img/hubspot.png" alt="" style="object-fit: scale-down" width="50px" />
-      </div>
-      <div class=" col-2 d-block d-sm-none">
-        <img src="img/ibm.png" alt="" style="object-fit: scale-down" width="50px" />
-      </div>
-      <div class=" col-2 d-block d-sm-none">
-        <img src="img/udemy.png" alt="" style="object-fit: scale-down" width="50px" />
-      </div>
-    </div>
-    <div class="row justify-content align-items-center mt-4" style="position: relative">
-      <img src="img/rectangle.png" alt="" />
-      <div class="row justify-content-center align-items-center text-center" style="position: absolute">
-        <div class="d-none d-sm-block  col-sm-3 text-light bold grow">
-          <h1 style="font-size: 55px">300+</h1>
-          <p style="font-size: 15px" class="text-light">Active Courses</p>
-        </div>
-        <div class="d-none d-sm-block  col-sm-3 text-light bold grow">
-          <h1 style="font-size: 55px">250+</h1>
-          <p style="font-size: 15px" class="text-light">Expert Tutors</p>
-        </div>
-        <div class="d-none d-sm-block  col-sm-3 text-light bold grow">
-          <span>
-            <h1 style="font-size: 55px">20k+</h1>
-            <p style="font-size: 15px" class="text-light">Active Students</p>
-          </span>
-        </div>
-        <div class="d-none d-sm-block  col-sm-3 text-light bold grow">
-          <span>
-            <h1 style="font-size: 55px">50k+</h1>
-            <p style="font-size: 15px" class="text-light">
-              Important Resources
-            </p>
-          </span>
-        </div>
-      </div>
-      <div class="row justify-content-center align-items-center text-center" style="position: absolute">
-        <div class="d-block d-sm-none  col-3 text-light bold grow">
-          <h1 style="font-size: 10px">300+</h1>
-          <p style="font-size: 5px" class="text-light">Active Courses</p>
-        </div>
-        <div class="d-block d-sm-none  col-3 text-light bold grow">
-          <h1 style="font-size: 10px">250+</h1>
-          <p style="font-size: 5px" class="text-light">Expert Tutors</p>
-        </div>
-        <div class="d-block d-sm-none  col-3 text-light bold grow">
-          <span>
-            <h1 style="font-size: 10px">20k+</h1>
-            <p style="font-size: 5px" class="text-light">Active Students</p>
-          </span>
-        </div>
-        <div class="d-block d-sm-none  col-3 text-light bold grow">
-          <span>
-            <h1 style="font-size: 10px">50k+</h1>
-            <p style="font-size: 5px" class="text-light">
-              Important Resources
-            </p>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--symbols end-->
-
-  <!--Take the advantages-->
-  <div class="container my-bg mt-5">
-    <div class="row justify-content-between">
-      <div class="col-sm-6 mt-5">
-        <h1 class="bold" style="color: #2a3748">
-          Take the advantages <br />
-          and build up your future
-        </h1>
-        <br />
-        <p style="font-size: 20px; color: #7C7A7A; ">
-          Find the right instructor for you. Any topic, skill level, or
-          language. Lifetime Access. Expert Instruction. Find the right
-          instructor for you. Any topic skill level, or language.
-        </p>
-        <br />
-        <ul class="list" style="
+    <!--Take the advantages-->
+    <div class="container my-bg mt-5">
+      <div class="row justify-content-between">
+        <div class="col-sm-6 mt-5">
+          <h1 class="bold" style="color: #2a3748">
+            Take the advantages <br />
+            and build up your future
+          </h1>
+          <br />
+          <p style="font-size: 20px; color: #7c7a7a">
+            Find the right instructor for you. Any topic, skill level, or
+            language. Lifetime Access. Expert Instruction. Find the right
+            instructor for you. Any topic skill level, or language.
+          </p>
+          <br />
+          <ul
+            class="list"
+            style="
               font-size: 25px;
               font-family: Airbnb Cereal App;
               color: #2a3748;
-            ">
-          <li>Live classes</li>
-          <li>Trending learning materials</li>
-          <li>Expert Instructors</li>
-          <li>Practices and discussions</li>
-          <li>Team work advantages</li>
-        </ul>
-        <button type="button" class="btn my-btn-2 rounded-pill btn-xl mt-4">
-          join for free
-        </button>
-      </div>
-      <div class="col-sm-5">
-        <img src="img/img-2.png" style="object-fit: scale-down" height="600px" alt="" />
+            "
+          >
+            <li>Live classes</li>
+            <li>Trending learning materials</li>
+            <li>Expert Instructors</li>
+            <li>Practices and discussions</li>
+            <li>Team work advantages</li>
+          </ul>
+          <button type="button" class="btn my-btn-2 rounded-pill btn-xl mt-4">
+            join for free
+          </button>
+        </div>
+        <div class="col-sm-5">
+          <img
+            src="img/img-2.png"
+            style="object-fit: scale-down"
+            height="450px"
+            alt=""
+          />
+        </div>
       </div>
     </div>
-  </div>
-  <!--Take the advantages end-->
+    <!--Take the advantages end-->
 
-  <!--Cards-->
+    <!--Cards-->
 
-  <div class="container-fluid mt-5 my-bg">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-sm-12 text-center mt-5">
-          <h1 class="bold">Most Desired Subjects</h1>
+    <div class="container-fluid mt-5 my-bg">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-sm-12 text-center mt-5">
+            <h1 class="bold">Most Desired Subjects</h1>
+          </div>
         </div>
-      </div>
-      <div class="row mt-5 ms-2 justify-content-center">
-        <div class="col-sm-4 d-none d-sm-block">
-          <div class="card ps-4" style="border: none; width: 300px">
-            <div class="bg-image ps-2">
-              <img src="img/business.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
+        <div class="row mt-5 ms-2 justify-content-center">
+          <div class="col-sm-4 d-none d-sm-block">
+            <div class="card ps-4" style="border: none; width: 300px">
+              <div class="bg-image ps-2">
+                <img src="img/business.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Business Marketing</h5>
+                <p class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </p>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Business Marketing</h5>
-              <p class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </p>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+          </div>
+          <div class="col-sm-4 d-none d-sm-block">
+            <div class="card ps-4" style="border: none; width: 300px">
+              <div class="bg-image ps-2">
+                <img src="img/computer.png" class="img-fluid" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Computer Science</h5>
+                <p class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </p>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 d-none d-sm-block">
+            <div class="card ps-4" style="border: none; width: 300px">
+              <div class="bg-image ps-2">
+                <img src="img/data.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Data Analysis</h5>
+                <p class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </p>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 d-none d-sm-block">
-          <div class="card ps-4" style="border: none; width: 300px">
-            <div class="bg-image ps-2">
-              <img src="img/computer.png" class="img-fluid" />
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Computer Science</h5>
-              <p class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </p>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 d-none d-sm-block">
-          <div class="card ps-4" style="border: none; width: 300px">
-            <div class="bg-image ps-2">
-              <img src="img/data.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Data Analysis</h5>
-              <p class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </p>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+        <div class="row mt-3 ms-2">
+          <div class="col-sm-4 d-none d-sm-block">
+            <div class="card ps-4" style="border: none; width: 300px">
+              <div class="bg-image ps-2">
+                <img src="img/uiux.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </p>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row mt-3 ms-2">
-        <div class="col-sm-4 d-none d-sm-block">
-          <div class="card ps-4" style="border: none; width: 300px">
-            <div class="bg-image ps-2">
-              <img src="img/uiux.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">UI/UX Design</h5>
-              <p class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </p>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 d-none d-sm-block">
-          <div class="card ps-4" style="border: none; width: 300px">
-            <div class="bg-image ps-2">
-              <img src="img/web.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Web Developing</h5>
-              <p class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </p>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+          <div class="col-sm-4 d-none d-sm-block">
+            <div class="card ps-4" style="border: none; width: 300px">
+              <div class="bg-image ps-2">
+                <img src="img/web.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Web Developing</h5>
+                <p class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </p>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-4 d-none d-sm-block">
-          <div class="card ps-4" style="border: none; width: 300px">
-            <div class="bg-image ps-2">
-              <img src="img/food.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Food and Nutrition</h5>
-              <p class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </p>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row mt-5 justify-content-center">
-        <div class="col-6 d-block d-sm-none">
-          <div class="card ps-4" style="border: none; width: 200px">
-            <div class="bg-image ps-2">
-              <img src="img/business.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Business Marketing</h5>
-              <h6 class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </h6>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 d-block d-sm-none">
-          <div class="card ps-4" style="border: none; width: 200px">
-            <div class="bg-image ps-2">
-              <img src="img/computer.png" class="img-fluid" />
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Computer Science</h5>
-              <h6 class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </h6>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5 justify-content-center ">
-        <div class="col-6 d-block d-sm-none">
-          <div class="card ps-4" style="border: none; width: 200px">
-            <div class="bg-image ps-2">
-              <img src="img/data.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Data Analysis</h5>
-              <h6 class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </h6>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 d-block d-sm-none">
-          <div class="card ps-4" style="border: none; width: 200px">
-            <div class="bg-image ps-2">
-              <img src="img/uiux.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">UI/UX Design</h5>
-              <h6 class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </h6>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5 justify-content-center">
-        <div class="col-6 d-block d-sm-none">
-          <div class="card ps-4" style="border: none; width: 200px">
-            <div class="bg-image ps-2">
-              <img src="img/web.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Web Developing</h5>
-              <h6 class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </h6>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 d-block d-sm-none">
-          <div class="card ps-4" style="border: none; width: 200px">
-            <div class="bg-image ps-2">
-              <img src="img/food.png" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Food and Nutrition</h5>
-              <h6 class="card-text">
-                Find the right instructor for you. Any topic, skill level, or
-                language. Lifetime Access. Expert Instruction.
-              </h6>
-              <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+          <div class="col-sm-4 d-none d-sm-block">
+            <div class="card ps-4" style="border: none; width: 300px">
+              <div class="bg-image ps-2">
+                <img src="img/food.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Food and Nutrition</h5>
+                <p class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </p>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
             </div>
           </div>
         </div>
 
+        <div class="row mt-5 justify-content-center">
+          <div class="col-6 d-block d-sm-none">
+            <div class="card ps-4" style="border: none; width: 200px">
+              <div class="bg-image ps-2">
+                <img src="img/business.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Business Marketing</h5>
+                <h6 class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </h6>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 d-block d-sm-none">
+            <div class="card ps-4" style="border: none; width: 200px">
+              <div class="bg-image ps-2">
+                <img src="img/computer.png" class="img-fluid" />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Computer Science</h5>
+                <h6 class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </h6>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-6 d-block d-sm-none">
+            <div class="card ps-4" style="border: none; width: 200px">
+              <div class="bg-image ps-2">
+                <img src="img/data.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Data Analysis</h5>
+                <h6 class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </h6>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 d-block d-sm-none">
+            <div class="card ps-4" style="border: none; width: 200px">
+              <div class="bg-image ps-2">
+                <img src="img/uiux.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">UI/UX Design</h5>
+                <h6 class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </h6>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-6 d-block d-sm-none">
+            <div class="card ps-4" style="border: none; width: 200px">
+              <div class="bg-image ps-2">
+                <img src="img/web.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Web Developing</h5>
+                <h6 class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </h6>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 d-block d-sm-none">
+            <div class="card ps-4" style="border: none; width: 200px">
+              <div class="bg-image ps-2">
+                <img src="img/food.png" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"
+                  ></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Food and Nutrition</h5>
+                <h6 class="card-text">
+                  Find the right instructor for you. Any topic, skill level, or
+                  language. Lifetime Access. Expert Instruction.
+                </h6>
+                <a href="#!" class="btn" style="font-size: 20px">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pb-5 justify-content-center">
+          <div class="col-sm-3">
+            <button
+              type="button"
+              class="btn my-btn-2 rounded-pill btn-xl"
+              style="font-size: 18px; width: 170px"
+            >
+              Browse All
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="row pb-5 justify-content-center">
-        <div class="col-sm-3">
-          <button type="button" class="btn my-btn-2 rounded-pill btn-xl" style="font-size: 18px; width: 170px">
-            Browse All
+    </div>
+
+    <!--Cards end-->
+
+    <!--It's hassle free always-->
+    <div class="container my-bg mt-5">
+      <div class="row justify-content-between mt-5">
+        <div class="col-sm-5">
+          <img
+            src="img/img-3.png"
+            alt=""
+            style="object-fit: scale-down"
+            height="500px"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h1 class="bold">
+            It's hassle free always!<br />
+            Start learning in your time
+          </h1>
+          <br />
+          <p style="font-size: x-large">
+            Access and share thousands of resources online or offline. Include
+            math, science, stories, and more. Works offline.Online courses for
+            creative minds. Learn with top professionals in the creative field.
+            <br />
+
+            <br />Join more than a million users who are already learning. Find
+            the right instructor for you. Any topic, skill level, or language.
+            Lifetime Access. Expert Instruction.
+          </p>
+          <br />
+
+          <button
+            type="button"
+            class="btn my-btn-2 rounded-pill btn-xl mt-4"
+            style="font-size: 18px; width: 200px"
+          >
+            Request for a lesson
           </button>
         </div>
       </div>
     </div>
-  </div>
+    <!--It's hassle free always end-->
 
-  <!--Cards end-->
+    <!--Carousel-->
+    <div class="container">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide my-bg mt-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="row align-items-center justify-content-end"
+              style="position: relative"
+            >
+              <img
+                src="img/bg-img.png"
+                style="object-fit: scale-down"
+                alt=""
+                height="500px"
+              />
 
-  <!--It's hassle free always-->
-  <div class="container my-bg mt-5">
-    <div class="row justify-content-between mt-5">
-      <div class="col-sm-5 ">
-        <img src="img/img-3.png" alt="" style="object-fit: scale-down" height="500px" />
-      </div>
-
-
-
-      <div class="col-sm-6 ">
-        <h1 class="bold">
-          It's hassle free always!<br />
-          Start learning in your time
-        </h1>
-        <br />
-        <p style="font-size: x-large;">
-          Access and share thousands of resources online or offline. Include
-          math, science, stories, and more. Works offline.Online courses for
-          creative minds. Learn with top professionals in the creative field.
-          <br />
-
-          <br />Join more than a million users who are already learning. Find
-          the right instructor for you. Any topic, skill level, or language.
-          Lifetime Access. Expert Instruction.
-        </p>
-        <br />
-
-        <button type="button" class="btn my-btn-2 rounded-pill btn-xl mt-4" style="font-size: 18px; width: 200px">
-          Request for a lesson
-        </button>
-      </div>
-    </div>
-  </div>
-  <!--It's hassle free always end-->
-
-  <!--Carousel-->
-  <div class="container my-bg">
-    <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row align-items-center mt-5" style="position: relative">
-            <img src="img/bg-img.png" style="object-fit: scale-down" alt="" height="500px" />
-
-            <div class="row align-items-center ms-5" style="position: absolute">
-              <div class="col-sm-6">
-                <p style="font-size: 30px">
-                  Access and share thousands of resources online or offline.
-                  Include math, science, stories, and more. Works
-                  offline.Online courses for creative minds. Learn with top
-                  professionals in the creative field.
-                </p>
-                <br />
-                <p style="font-size: 40px">Niara Jhonson</p>
-                <p style="color: #7c7a7a">Student of Marketing Department</p>
+              <div
+                class="row align-items-center justify-content-center ms-5"
+                style="position: absolute"
+              >
+                <div class="col-sm-6">
+                  <p style="font-size: 30px">
+                    Access and share thousands of resources online or offline.
+                    Include math, science, stories, and more. Works
+                    offline.Online courses for creative minds. Learn with top
+                    professionals in the creative field.
+                  </p>
+                  <br />
+                  <p style="font-size: 40px">Niara Jhonson</p>
+                  <p style="color: #7c7a7a">Student of Marketing Department</p>
+                </div>
+                <div class="col-sm-5">
+                  <img
+                    src="img/img-4.png"
+                    style="object-fit: scale-down"
+                    height="500px"
+                    alt=""
+                  />
+                </div>
               </div>
-              <div class="col-sm-6 ">
-                <img src="img/img-4.png" style="object-fit: scale-down" height="500px" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="row align-items-center justify-content-end"
+              style="position: relative"
+            >
+              <img
+                src="img/bg-img.png"
+                style="object-fit: scale-down"
+                alt=""
+                height="500px"
+              />
+              <div
+                class="row align-items-center justify-content-center ms-5"
+                style="position: absolute"
+              >
+                <div class="col-sm-6">
+                  <p style="font-size: 30px">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quod, est dolores natus velit, repudiandae commodi
+                    reiciendis reprehenderit nesciunt praesentium repellendus
+                    totam animi inventore adipisci molestias culpa placeat?
+                  </p>
+                  <br />
+                  <p style="font-size: 40px">Lorem, ipsum.</p>
+                  <p style="color: #7c7a7a">Student of Marketing Department</p>
+                </div>
+                <div class="col-sm-5">
+                  <img
+                    src="img/img-2.png"
+                    style="object-fit: scale-down"
+                    height="450px"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="row align-items-center  mt-5" style="position: relative">
-            <img src="img/bg-img.png" style="object-fit: scale-down" alt="" width="500px" />
-
-            <div class="row align-items-center ms-5" style="position: absolute">
-              <div class="col-sm-6">
-                <p style="font-size: 30px">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam, velit?
-                </p>
-                <br />
-                <p style="font-size: 40px">Lorem, ipsum.</p>
-                <p style="color: #7c7a7a">Student of Marketing Department</p>
-              </div>
-              <div class="col-sm-6 ">
-                <img src="img/img-2.png" style="object-fit: scale-down" height="650px" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleFade"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <button type="button" class="btn my-btn-3 btn-xl" aria-hidden="true">
+            <i class="fa fa-arrow-circle-right"></i>
+          </button>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-        <button type="button" class="btn my-btn-3 btn-xl" aria-hidden="true">
-          <i class="fa fa-arrow-circle-right"></i>
-        </button>
-      </a>
+
+      <!--carousel end-->
     </div>
+    <!--Carousel end-->
 
-    <!--carousel end-->
-  </div>
-  <!--Carousel end-->
-
-
-  <!--We are ready to hear you-->
-  <div class="container-fluid mt-5 my-bg">
-    <div class="row justify-content-center align-items-center" style="
+    <!--We are ready to hear you-->
+    <div class="container-fluid mt-5 my-bg">
+      <div
+        class="row justify-content-center align-items-center"
+        style="
           background-image: url(img/rectangle-2.png);
           background-size: cover;
-          height: 450px;
+          height: 350px;
           max-width: 100%;
-        ">
-      <div class="col-sm-6 text-center">
-        <h1 class="text-light bold grow" style="font-size: 40px">
-          We are ready to hear you, <br />
-          through us your thoughts now
-        </h1>
-        <button type="button" class="btn my-btn-4 rounded-pill btn-xl mt-4 grow" style="font-size: 18px; width: 200px">
-          join for free today
-        </button>
+        "
+      >
+        <div class="col-sm-6 text-center">
+          <h1 class="text-light bold grow" style="font-size: 40px">
+            We are ready to hear you, <br />
+            through us your thoughts now
+          </h1>
+          <button
+            type="button"
+            class="btn my-btn-4 rounded-pill btn-xl mt-4 grow"
+            style="font-size: 18px; width: 200px"
+          >
+            join for free today
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-  <!--We are ready to hear you end-->
+    <!--We are ready to hear you end-->
 
-  <!--Footer-->
-  <div class="container mt-5 my-bg">
-    <div class="row justify-content-center">
-      <div class="col-sm-3 align-items-center">
-        <div class="row justify-content-start align-items-center">
-          <div class="col-sm-4 col-md-3 ">
-            <img src="img/iconheader.png" alt="" style="object-fit: scale-down" />
+    <!--Footer-->
+    <div class="container mt-5 my-bg">
+      <div class="row justify-content-center">
+        <div class="col-sm-3 align-items-center">
+          <div class="row justify-content-start align-items-center">
+            <div class="col-sm-4 col-md-3">
+              <img
+                src="img/iconheader.png"
+                alt=""
+                style="object-fit: scale-down"
+              />
+            </div>
+            <div class="col-sm-2">
+              <h2 class="footerBrand">Study<span>ink</span></h2>
+            </div>
           </div>
-          <div class="col-sm-2">
-            <h2 class="footerBrand">Study<span>ink</span></h2>
+          <p>
+            Studyink is a platform that helps you find tutors and manage your
+            tutoring activities.
+          </p>
+          <div class="row justify-content-start">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-3">
+              <button
+                type="button"
+                class="my-btn-5 rounded-circle"
+                style="background-image: url(img/facebook.png)"
+              ></button>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-3">
+              <button
+                type="button"
+                class="my-btn-5 rounded-circle"
+                style="background-image: url(img/instagram.png)"
+              ></button>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-3">
+              <button
+                type="button"
+                class="my-btn-5 rounded-circle"
+                style="background-image: url(img/twitter.png)"
+              ></button>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-3">
+              <button
+                type="button"
+                class="my-btn-5 rounded-circle"
+                style="background-image: url(img/linkdin.png)"
+              ></button>
+            </div>
           </div>
         </div>
-        <p>
-          Studyink is a platform that helps you find tutors and manage your
-          tutoring activities.
-        </p>
-        <div class="row justify-content-start">
-          <div class="col-lg-2 col-md-3 col-sm-6 col-3">
-            <button type="button" class="my-btn-5 rounded-circle"
-              style="background-image: url(img/facebook.png)"></button>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-6 col-3">
-            <button type="button" class="my-btn-5 rounded-circle"
-              style="background-image: url(img/instagram.png)"></button>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-6 col-3">
-            <button type="button" class="my-btn-5 rounded-circle"
-              style="background-image: url(img/twitter.png)"></button>
-          </div>
-          <div class="col-lg-2 col-md-3 col-sm-6 col-3">
-            <button type="button" class="my-btn-5 rounded-circle"
-              style="background-image: url(img/linkdin.png)"></button>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-9">
-        <div class="row justify-content-center">
-          <div class="col-sm-3">
-            <ul>
-              <li>
-                <p style="font-size: 24px">Resources</p>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Features</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Pricing</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Log in</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Sign up</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <ul>
-              <li>
-                <p style="font-size: 24px">Legal</p>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Terms of use</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Privacy policy</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Legal notice</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <ul>
-              <li>
-                <p style="font-size: 24px">Links</p>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Feedback</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Tutors</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">Courses</p>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <p class="footer">About Us</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <p style="font-size: 24px">Write to us</p>
-            <br />
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Email" style="border-color: #5252ce" />
-              <div class="input-group-append">
-                <button class="btn send-btn" type="button">Send</button>
+        <div class="col-sm-9">
+          <div class="row justify-content-center">
+            <div class="col-sm-3">
+              <ul>
+                <li>
+                  <p style="font-size: 24px">Resources</p>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Features</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Pricing</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Log in</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Sign up</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <ul>
+                <li>
+                  <p style="font-size: 24px">Legal</p>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Terms of use</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Privacy policy</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Legal notice</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <ul>
+                <li>
+                  <p style="font-size: 24px">Links</p>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Feedback</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Tutors</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">Courses</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <p class="footer">About Us</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <p style="font-size: 24px">Write to us</p>
+              <br />
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  style="border-color: #5252ce"
+                />
+                <div class="input-group-append">
+                  <button class="btn send-btn" type="button">Send</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--Footer end-->
+    <!--Footer end-->
 
+    <br />
+    <hr />
 
-  <br />
-  <hr />
+    <div class="container">
+      <a
+        class="row justify-content-center"
+        href="https://www.uplabs.com/antorpaulraj33"
+      >
+        <img
+          src="img/madeby.png"
+          height="80px"
+          style="object-fit: scale-down"
+        />
+      </a>
+    </div>
+    <!--made with end-->
 
+    <!-- Optional JavaScript; choose one of the two! -->
 
-  <div class="container">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
 
-    <a class="row justify-content-center " href="https://www.uplabs.com/antorpaulraj33">
-      <img src="img/madeby.png" height="80px" style="object-fit: scale-down" />
-    </a>
-  </div>
-  <!--made with end-->
-
-
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
-
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
-</body>
-
+  </body>
 </html>
